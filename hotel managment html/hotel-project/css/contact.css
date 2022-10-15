@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a:hover,
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*header ares start*/
+.header {
+    height: 100px;
+    line-height: 80px;
+    background: rgba(0, 0, 0, 0.72);
+}
+
+.menu_area {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo_img img{
+    height: 50px;
+    width: 120px;
+    border-radius: 50%;
+}
+.logo a {
+    color: #ffa700;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.main-menu li a {
+    display: block;
+    padding: 0 20px;
+    margin-top: 10px;
+    color: #ffffff;
+    transition: all linear 0.3s;
+}
+
+.main-menu li a:hover {
+    background: #d3d2d2;
+    color: #0f1fde;
+}
+
+/*header ares end*/
+/*banner ares start*/
+.banner {
+    background: url(../image/hotel-1831072_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.banner_overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form level {
+    display: block;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+.name input {
+    width: 300px;
+    height: 40px;
+}
+
+.email input {
+    width: 300px;
+    height: 40px;
+}
+
+.phn_no {
+    margin-top: 20px;
+}
+
+.phn_no input {
+    width: 300px;
+    height: 40px;
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.message input {
+    height: 100px;
+    width: 300px;
+}
+
+.button button {
+    padding: 10px;
+    background: blue;
+    color: white;
+
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+.button button:hover {
+    background: white;
+    color: black;
+}
+
+/*banner ares end*/

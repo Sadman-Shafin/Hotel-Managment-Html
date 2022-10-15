@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a:hover,
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*header ares start*/
+.header {
+    height: 80px;
+    line-height: 80px;
+    background: rgba(0, 0, 0, 0.72);
+}
+
+.menu_area {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo a {
+    color: #ffa700;
+    font-size: 40px;
+    font-family: 'Kaushan Script',
+        cursive;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.main-menu li a {
+    display: block;
+    padding: 0 25px;
+
+    color: #ffffff;
+    transition: all linear 0.3s;
+}
+
+.main-menu li a:hover {
+    background: #d3d2d2;
+    color: #0f1fde;
+}
+
+/*header ares end*/
+/*banner ares start*/
+.banner {
+    background: url(../image/hotel-room-1261900_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.banner_overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px 0;
+    color: #ffffff;
+
+}
+.Reasevation_header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.room_type{
+    height: 150px; 
+    width: 200px;
+    background: rgba(70, 118, 108, 0.82);
+    text-align: center;
+    color: #ffa700;
+}
+.form {
+    line-height: 10px;
+    margin-left:30px;
+}
+.submit_button button{
+    padding: 8px;
+    background: blue;
+    color: white;
+    margin: 20px 0 0 90px;
+   
+}
+
+/*banner ares end*/

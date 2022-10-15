@@ -1,0 +1,381 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a:hover,
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kaushan Script';
+}
+
+p {
+    padding: 0;
+    margin: 0;
+
+}
+.m_0 {
+    margin: 0px;
+}
+.mb_15 {
+    margin-bottom: 15px ;
+}
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+.pt_60 {
+    padding-top: 60px;
+}
+
+.pb_60 {
+    padding-bottom: 60px;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+
+}
+/*header ares start*/
+.header {
+    height: 80px;
+    line-height: 80px;
+    background: rgb(8, 13, 18);
+}
+
+.menu_area {
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo_img img{
+    height: 50px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.logo a {
+    color: #ffa700;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.main-menu li a {
+    display: block;
+    padding: 0 15px;
+    color: #ffffff;
+    transition: all linear 0.3s;
+}
+
+.main-menu li a:hover {
+    background: #d3d2d2;
+    color: #0f1fde;
+}
+
+/*header ares end*/
+/*banner ares start*/
+.banner {
+    background: url(../image/people-2593251_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.banner_overlay {
+    background: rgba(0, 0, 0, 0.47);
+    padding: 180px 0;
+}
+
+.banner_content {
+    margin-left: 400px;
+}
+
+.banner_content h2 {
+    color: #ffa700;
+    font-size: 50px;
+}
+
+.banner_content p {
+    text-transform: capitalize;
+    color: white;
+    padding: 20px;
+}
+
+/*banner ares end*/
+
+/*room reservation area start*/
+.reservation {
+    width: 100%;
+    height: 75px;
+    background: rgba(255, 167, 0, 0.88);
+}
+
+.reservation h3 {
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.reservation h3:hover,
+h3 {
+    color: #0d084a;
+}
+
+/*room reservation area end*/
+/*servive area start*/
+.service {
+    background: #f2f2f2;
+    width: 100%;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.service_heading {
+    padding-top: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Kaushan Script', cursive;
+    color: #ffa700;
+}
+
+.servive_text1 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: black;
+}
+
+.service_main {
+    background: #ecdfdf;
+    height: 200px;
+    margin-top: 20px;
+
+}
+
+.icon img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+/*servive area end*/
+/*gallery  area start*/
+
+#gallery {
+    margin: 50px 0 20px 0;
+}
+
+.gallery_big,
+.gallery_small {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.gallery_big img,
+.gallery_small img {
+    height: 250px;
+}
+
+.gallery_overlay {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.3s;
+    color: #ffffff;
+}
+
+
+.gallery_big:hover .gallery_overlay,
+.gallery_small:hover .gallery_overlay {
+    top: 0;
+}
+
+/*gallery area end*/
+/*team area start*/
+#team {
+    background: rgb(240, 240, 240);
+    margin-top: 30px;
+    height: 450px;
+}
+
+.team_heading{
+    padding: 20px;
+}
+
+.team_footer {
+    color: #0c4aac;
+}
+
+.team_img img {
+    border-radius: 50%;
+    width: 250px;
+    margin: 25px 0 20px 0;
+}
+
+.team_img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team_overlay {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 33.33%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.3s;
+}
+
+.team_overlay a {
+    color: #ffffff;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.team_overlay ul li:last-of-type a {
+    margin-bottom: 0;
+}
+
+.team_area:hover .team_img {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.29);
+}
+
+.team_area:hover .team_overlay {
+    right: 0;
+}
+
+.team_content {
+    margin-top: 15px;
+}
+
+.team_area:hover .team_content h4 {
+    color: #ffa700;
+}
+.team_overlay a:hover{
+    color: blue;
+}
+
+/*team area end*/
+/*About area start*/
+#about{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about_content{
+    margin-top: 44px;
+}
+.about_content p{
+    font-size: 13px;
+    color: #555555;
+}
+.about_content p:nth-child(1){
+    margin-bottom: 30px;
+}
+
+/*About area end*/
+/*footer area starts*/
+#footer{
+    padding: 20px 0;
+    background: #353535;
+}
+.f_heading h6{
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.f_logo img{
+    height: 80px;
+    width: 120px;
+    border-radius: 50%;
+}
+.f_about p{
+    color: #ffffff;
+    font-size: 13px;
+    margin-bottom: 36px;
+}
+.f_about p:last-child{
+    margin-bottom: 0;
+}
+
+.f_icon{
+    height: 35px;
+    width: 35px;
+    background: #5bc5f3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.phone a{
+    display: block;
+    color: #ffffff
+}
+.footer_gly{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+/*footer area ends*/
+
+
+
+font-family: 'Kaushan Script',
+cursive;
+font-family: 'Lobster',
+cursive;
+font-family: 'Open Sans',
+sans-serif;
+font-family: 'Oswald',
+sans-serif;
